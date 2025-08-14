@@ -1,0 +1,44 @@
+SQL + Power BI: Hotel Revenue Analysis
+📌 Project Overview
+
+This project analyzes hotel revenue and operational data from two hotels over the years 2018–2020 using SQL for data extraction and Power BI for visualization.
+The analysis focuses on:
+
+Year-over-year revenue growth
+
+Potential need for increasing parking lot size
+
+Seasonal and trend patterns in Average Daily Rate (ADR) and guest behavior
+
+The end goal is to provide data-driven recommendations for hotel management.
+
+📂 Data Source
+
+The dataset consists of three yearly Excel sheets:
+
+2018$
+
+2019$
+
+2020$
+
+Each sheet contains records of hotel stays, revenue metrics, and operational details (e.g., ADR, parking spaces, stay duration).
+
+🛠️ Tools & Technologies
+
+SQL Server – Data cleaning, aggregation, and querying
+
+Power BI – Dashboard creation and visualization (in progress)
+
+Excel – Initial data source storage
+
+🔍 Key Questions & Insights
+
+Is our hotel revenue growing by year?
+SQL queries calculate total yearly revenue for each hotel.
+
+Should we increase our parking lot size?
+Analysis of car parking space usage relative to total nights stayed.
+
+What seasonal trends can we identify?
+Focus on ADR and guest counts to explore patterns in occupancy and pricing.
