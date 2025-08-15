@@ -1,0 +1,12 @@
+SQL Queries I used in this project:
+
+Q1 - joins all tables on relevant columns:
+
+SELECT * 
+FROM dbo.Absenteeism_at_work AS a
+LEFT JOIN dbo.Reasons AS r
+ON a.Reason_for_absence = r.Number
+LEFT JOIN dbo.compensation AS c
+ON a.ID = c.ID
+
+Q2 - 
