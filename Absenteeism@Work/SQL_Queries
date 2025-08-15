@@ -13,7 +13,8 @@ Q2 - Find top 100 healthiest workers with the least absents
 
 SELECT TOP 100
 a.ID,
-a.Absenteeism_time_in_hours
+a.Absenteeism_time_in_hours,
+a.Body_mass_index
 FROM dbo.Absenteeism_at_work AS a
 WHERE a.Social_drinker = 0 
 AND a.Social_smoker = 0 
