@@ -9,10 +9,9 @@ ON a.Reason_for_absence = r.Number
 LEFT JOIN dbo.compensation AS c
 ON a.ID = c.ID
 
-Q2 - Find top 100 healthiest workers with the least absents
+Q2 - Find the healthiest workers with the least absents to give the bonus to
 
-SELECT TOP 100
-a.ID,
+SELECT a.ID,
 a.Absenteeism_time_in_hours,
 a.Body_mass_index
 FROM dbo.Absenteeism_at_work AS a
@@ -24,3 +23,15 @@ GROUP BY a.ID,
     a.Body_mass_index,
     a.Absenteeism_time_in_hours
 ORDER BY a.Absenteeism_time_in_hours ASC
+
+Q3 - Increase compensation for non smokers, 
+first find how many non smokers:
+
+SELECT COUNT(*) AS non_smokers 
+FROM dbo.Absenteeism_at_work AS a
+WHERE a.Social_smoker = 0;
+
+next using simple math we got a total of 686, 
+working 8h/day over 5*52 days a year that is 8*5*52*686 = 1,426,880 Hours
+and we need to divide the bonus between them of 967,345$ 
+therefore each employee gets about an additional 2/3$ an hour.
