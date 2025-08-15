@@ -9,4 +9,18 @@ ON a.Reason_for_absence = r.Number
 LEFT JOIN dbo.compensation AS c
 ON a.ID = c.ID
 
-Q2 - 
+Q2 - Find top 100 healthiest workers with the least absents
+
+SELECT TOP 100
+a.ID,
+SUM(a.Absenteeism_time_in_hours) AS total_missing_time
+FROM dbo.Absenteeism_at_work AS a
+LEFT JOIN dbo.Reasons AS r
+ON a.Reason_for_absence = r.Number
+WHERE a.Social_drinker = 0 
+AND a.Social_smoker = 0 
+AND a.Body_mass_index BETWEEN 18 AND 25
+GROUP BY a.ID,
+    a.Body_mass_index,
+    a.Absenteeism_time_in_hours
+ORDER BY total_missing_time ASC
