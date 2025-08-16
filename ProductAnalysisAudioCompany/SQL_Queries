@@ -1,0 +1,21 @@
+Q1 - get data ready for PowerBI analysis:
+
+select a.Product,
+a.category,
+a.Brand,
+a.Description,
+a.Cost_Price,
+a.Sale_Price,
+c.Discount,
+(a.Sale_Price*b.Units_Sold) as revenue,
+(a.Cost_Price*b.Units_Sold) as total_cost,
+(a.Sale_Price*b.Units_Sold) - (a.Cost_Price*b.Units_Sold) - c.Discount as profit,
+b.Date,
+format(b.Date, 'MMMM') as month,
+format(b.Date, 'yyyy') as year,
+a.Image_url
+from dbo.Product_data a
+join dbo.product_sales b
+on a.Product_ID = b.Product
+join dbo.discount_data c
+on c.Discount_Band = b.Discount_Band
