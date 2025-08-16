@@ -1,9 +1,11 @@
 Q1 - get data ready for PowerBI analysis:
 
+with my_table as (
 select a.Product,
 a.category,
 a.Brand,
 a.Description,
+b.Customer_Type,
 a.Cost_Price,
 a.Sale_Price,
 c.Discount,
@@ -18,4 +20,7 @@ from dbo.Product_data a
 join dbo.product_sales b
 on a.Product_ID = b.Product
 join dbo.discount_data c
-on c.Discount_Band = b.Discount_Band
+on c.Discount_Band = b.Discount_Band and format(b.Date, 'MMMM') = c.Month)
+
+
+select * from my_table
