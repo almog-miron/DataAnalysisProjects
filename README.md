@@ -1,7 +1,7 @@
 *Data Analysis Projects 
 
 This folder contains a collection of projects showcasing my skills in SQL, data analysis, Python and Power BI. 
-Each project applies analytical methods to real-world business scenarios, from HR to product sales. ********************************************************************************************************************************************************
+Each project applies analytical methods to real-world business scenarios, from HR to product sales. *******************************************************************************************************************
 Projects Included: 
 
 --Product Analysis Dashboard: 
@@ -22,7 +22,8 @@ Deliverables: SQL queries, Power BI dashboard
 --Bike Share Analysis (In progress) 
 Tools : Python, PowerBI 
 Focus: Patterns in Bije rentals, revenue, seasons demographics 
-Deliverables: Python Script, Power BI dashboard *******************************************************************************************************************************************************
+Deliverables: Python Script, Power BI dashboard 
+**********************************************************************************************************************
 Key Skills Demonstrated:
 
 Writing efficient SQL queries for data cleaning, joining, and analysis. 
