@@ -32,6 +32,15 @@ Projects Included:
   Focus: Patterns in employee absenteeism, healthy employee identification, bonus distribution strategy
 
   Deliverables: SQL queries, Power BI dashboard
+  
+
+--Bike Share Analysis (In progress)
+
+  Tools : Python, PowerBI
+
+  Focus: Patterns in Bije rentals, revenue, seasons demographics
+
+  Deliverables: Python Script, Power BI dashboard
 
 
 *************************************************************************************************************************************************************************************************
