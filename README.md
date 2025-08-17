@@ -15,6 +15,16 @@ Projects Included:
 
   Deliverables: Interactive dashboard, detailed report
 
+  
+--Hotel Revenue Analysis 
+
+  Tools: SQL,  Power BI
+
+  Focus: Two hotels (2018–2020): YoY revenue growth, parking capacity need, and seasonality in ADR and guest behavior. 
+  
+  Deliverables: SQL queries, HotelRevenueProject.pbix, and a brief report.
+  
+
 --Employee Absenteeism Analysis
 
   Tools: SQL, Power BI
