@@ -1,4 +1,88 @@
-# Asces Sound is a leading innovator in the audio technology industry, dedicated to providing high-quality audio solutions for professionals and enthusiatics alike.
-# with a focus on exceptional sound clarity, advanced engineering, and user friendly designs.
 
-# In this project I built a database, develope SQL, connected to PowerBI and created an informative Dashboard
+# Product Analytics Dashboard
+
+## 📊 Project Overview
+
+This project delivers a **high-level Product Analytics Dashboard** built with **SQL** (for data extraction and transformation) and **Power BI** (for visualization).
+The dashboard provides management with insights into **key product performance metrics**, supporting **strategic decision-making** and enabling effective tracking of **performance trends**.
+
+---
+
+## 🔑 Key Features
+
+The dashboard includes the following sections as requested by management:
+
+1. **Revenue by Country**
+
+   * Highlights **top-performing regions** with corresponding revenue.
+
+2. **Revenue by Date and Year**
+
+   * Shows **comparative revenue trends** across time.
+
+3. **Profit and Unit Sales YoY Change**
+
+   * High-level summary of **year-over-year (YoY) growth** in profit and sales.
+
+4. **Revenue Breakdown by Discount Band**
+
+   * Displays **distribution of revenue across discount categories**.
+
+5. **Detailed Table View**
+
+   * Tabular breakdown of **revenue and profit details by country and year**.
+
+6. **Additional Insights**
+
+   * Includes supplementary views or metrics that further support decision-making (e.g., top categories, seasonal trends).
+
+---
+
+## 🛠 Tools & Technologies
+
+* **SQL** – Data extraction, cleaning, and transformation.
+* **Power BI** – Interactive dashboard creation and visualization.
+* **Dataset** – Product sales and revenue data (simulated / company-provided).
+
+---
+
+## 📂 Repository Contents
+
+* `ProductAnalysis.pbix` – Power BI dashboard file.
+* `README.md` – Project documentation (this file).
+* SQL_Queries - SQL scripts used for data preparation.
+* Original CSV files - 'product_sales.csv', 'discount_data.csv', 'Product_data.csv'
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+
+### Instructions
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/almog-miron/DataAnalysisProjects/ProductAnalysisAudioCompany.git
+   ```
+2. Open `ProductAnalysis.pbix` in Power BI Desktop.
+3. Connect to the dataset or refresh existing queries.
+4. Explore the dashboard to analyze revenue, profit, and sales trends.
+
+---
+
+## 📈 Example Insights
+
+* Identify **which countries drive the highest revenue**.
+* Compare **year-over-year performance trends**.
+* Understand how **discount strategies** affect revenue.
+* Drill down into **profitability by region and year**.
+
+---
+
+## 📬 Contact
+
+For questions or feedback, feel free to open an issue or reach out directly.
