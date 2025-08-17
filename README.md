@@ -1,7 +1,8 @@
 *Data Analysis Projects 
 
 This folder contains a collection of projects showcasing my skills in SQL, data analysis, Python and Power BI. 
-Each project applies analytical methods to real-world business scenarios, from HR to product sales. *******************************************************************************************************************
+Each project applies analytical methods to real-world business scenarios, from HR to product sales. **********************************************************************************************************************
+
 Projects Included: 
 
 --Product Analysis Dashboard: 
