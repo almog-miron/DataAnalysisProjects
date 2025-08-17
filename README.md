@@ -25,6 +25,6 @@ Focus: Patterns in Bije rentals, revenue, seasons demographics
 Deliverables: Python Script, Power BI dashboard *******************************************************************************************************************************************************
 Key Skills Demonstrated:
 
-Writing efficient SQL queries for data cleaning, joining, and analysis 
-Building interactive dashboards in Power BI 
-Translating data into business insights and recommendations
+Writing efficient SQL queries for data cleaning, joining, and analysis. 
+Building interactive dashboards in Power BI. 
+Translating data into business insights and recommendations.
