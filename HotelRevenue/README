@@ -12,7 +12,9 @@ Seasonal and trend patterns in Average Daily Rate (ADR) and guest behavior
 
 The end goal is to provide data-driven recommendations for hotel management.
 
-📂 Data Source
+*******************************************************************************************************************************************
+
+Data Source
 
 The dataset consists of three yearly Excel sheets:
 
@@ -24,6 +26,8 @@ The dataset consists of three yearly Excel sheets:
 
 Each sheet contains records of hotel stays, revenue metrics, and operational details (e.g., ADR, parking spaces, stay duration).
 
+******************************************************************************************************************************************
+
 🛠️ Tools & Technologies
 
 SQL Server – Data cleaning, aggregation, and querying
@@ -32,7 +36,18 @@ Power BI – Dashboard creation and visualization (in progress)
 
 Excel – Initial data source storage
 
-🔍 Key Questions & Insights
+*******************************************************************************************************************************************
+
+Files
+* **SQL_Queries** - all queries used in this exercise
+* **CSV file** - 'hotel_revenue_historical_full.csv'
+* **PowerBI analysis** - HotelRevenueProject.pbix
+* [**Full detailed Report**](https://github.com/almog-miron/DataAnalysisProjects/blob/main/HotelRevenue/README_Hotel_Revenue_Report.pdf) - 
+  contains sample of BI analysis
+
+*******************************************************************************************************************************************
+
+Key Questions & Insights
 
 Is our hotel revenue growing by year?
 SQL queries calculate total yearly revenue for each hotel.
