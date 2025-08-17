@@ -1,49 +1,40 @@
 Data Analysis Projects
 
-This folder contains a collection of projects showcasing my skills in SQL, data analysis, Python and Power BI. 
+This folder contains a collection of projects showcasing my skills in SQL, data analysis, Python, and Power BI.
 Each project applies analytical methods to real-world business scenarios, from HR to product sales.
 
-*************************************************************************************************************************************************************************************************
+Projects Included
+Product Analysis Dashboard
 
-Projects Included:
+Tools: SQL, Power BI
 
---Product Analysis Dashboard:
+Focus: Revenue, profit, and discount trends across countries and years
 
-  Tools: SQL, Power BI
+Deliverables: Interactive dashboard, detailed report
 
-  Focus: Revenue, profit, and discount trends across countries and years
+Hotel Revenue Analysis
 
-  Deliverables: Interactive dashboard, detailed report
+Tools: SQL, Power BI
 
-  
---Hotel Revenue Analysis 
+Focus: Two hotels (2018–2020): YoY revenue growth, parking capacity need, and seasonality in ADR and guest behavior
 
-  Tools: SQL,  Power BI
+Deliverables: SQL queries, HotelRevenueProject.pbix, and a brief report
 
-  Focus: Two hotels (2018–2020): YoY revenue growth, parking capacity need, and seasonality in ADR and guest behavior. 
-  
-  Deliverables: SQL queries, HotelRevenueProject.pbix, and a brief report.
-  
+Employee Absenteeism Analysis
 
---Employee Absenteeism Analysis
+Tools: SQL, Power BI
 
-  Tools: SQL, Power BI
+Focus: Patterns in employee absenteeism, healthy employee identification, and bonus distribution strategy
 
-  Focus: Patterns in employee absenteeism, healthy employee identification, bonus distribution strategy
+Deliverables: SQL queries, Power BI dashboard
 
-  Deliverables: SQL queries, Power BI dashboard
-  
+Bike Share Analysis (In progress)
 
---Bike Share Analysis (In progress)
+Tools: Python, Power BI
 
-  Tools : Python, PowerBI
+Focus: Patterns in bike rentals, revenue, seasonality, and demographics
 
-  Focus: Patterns in Bije rentals, revenue, seasons demographics
-
-  Deliverables: Python Script, Power BI dashboard
-
-
-*************************************************************************************************************************************************************************************************
+Deliverables: Python script, Power BI dashboard
 
 Key Skills Demonstrated
 
