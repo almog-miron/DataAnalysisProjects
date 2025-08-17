@@ -5,25 +5,17 @@ Each project applies analytical methods to real-world business scenarios, from H
 
 Projects Included: 
 
---Product Analysis Dashboard: 
-Tools: SQL, Power BI 
-Focus: Revenue, profit, and discount trends across countries and years 
+--Product Analysis Dashboard (SQL + Power BI) : Focus on Revenue, profit, and discount trends across countries and years. 
 Deliverables: Interactive dashboard, detailed report 
 
---Hotel Revenue Analysis 
-Tools: SQL, Power BI 
-Focus: Two hotels (2018–2020): YoY revenue growth, parking capacity need, and seasonality in ADR and guest behavior. 
+--Hotel Revenue Analysis (SQL + Power BI) : Focus on Two hotels (2018–2020): YoY revenue growth, parking capacity need, and seasonality in ADR and guest behavior. 
 Deliverables: SQL queries, HotelRevenueProject.pbix, and a brief report. 
 
---Employee Absenteeism Analysis 
-Tools: SQL, Power BI 
-Focus: Patterns in employee absenteeism, healthy employee identification, bonus distribution strategy 
+--Employee Absenteeism Analysis (SQL + PowerBI): Focus on Patterns in employee absenteeism, healthy employee identification, bonus distribution strategy. 
 Deliverables: SQL queries, Power BI dashboard 
 
---Bike Share Analysis (In progress) 
-Tools : Python, PowerBI 
-Focus: Patterns in Bije rentals, revenue, seasons demographics 
-Deliverables: Python Script, Power BI dashboard 
+--Bike Share Analysis (In progress, Python): Focus on Patterns in Bije rentals, revenue, seasons demographics.
+Deliverables: Python Script using pandas and Jupyter Notebook 
 **********************************************************************************************************************
 Key Skills Demonstrated:
 
