@@ -1,1 +1,55 @@
-HR request to data analysis team to ;provide a list of healthy individuals with low absenteeism in order to give them a bonus etc
+Employee Absenteeism Analysis
+Overview
+
+This project analyzes employee absenteeism data using SQL and Power BI. The goal was to uncover absenteeism patterns, design a fair bonus distribution strategy, and create an interactive dashboard to support HR decision-making.
+
+***********************************************************************************************************************************************
+
+Highlights:
+
+SQL Data Preparation
+
+Joined absence, reasons, and compensation tables.
+
+Identified healthiest employees with below-average absenteeism for potential bonuses.
+
+Calculated a transparent bonus distribution for non-smokers (~$1,400 per year per employee).
+
+Built a clean dataset for Power BI.
+
+Power BI Dashboard
+
+Absenteeism by reason, season, and lifestyle factors.
+
+Trends across BMI categories, smoking/drinking habits, and compensation.
+
+Interactive HR-focused visualizations for identifying absenteeism drivers.
+
+***********************************************************************************************************************************************
+
+Key Insights
+
+Non-smokers and non-drinkers with healthy BMI are absent significantly less.
+
+Seasonal absenteeism peaks in winter.
+
+Transparent, data-driven bonus allocation can improve fairness and motivation.
+
+***********************************************************************************************************************************************
+
+Repository Contents
+
+Absent_Employees.pbix – [Power BI dashboard]()
+
+Absenteeism_at_work.csv – Base dataset
+
+Reasons.csv, compensation.csv – Supporting data
+
+README.md – Project documentation
+
+
+***********************************************************************************************************************************************
+
+Conclusion
+
+This project demonstrates the ability to combine SQL querying and Power BI visualization to solve a real HR problem: reducing absenteeism and designing incentive structures.
