@@ -32,10 +32,6 @@ The dashboard includes the following sections as requested by management:
 
    * Tabular breakdown of **revenue and profit details by country and year**.
 
-6. **Additional Insights**
-
-   * Includes supplementary views or metrics that further support decision-making (e.g., top categories, seasonal trends).
-
 ---
 
 ## 🛠 Tools & Technologies
@@ -43,8 +39,6 @@ The dashboard includes the following sections as requested by management:
 * **SQL** – Data extraction, cleaning, and transformation.
 * **Power BI** – Interactive dashboard creation and visualization.
 * **Dataset** – Product sales and revenue data (simulated / company-provided).
-* [**Detailed Report**](https://github.com/almog-miron/DataAnalysisProjects/blob/main/ProductAnalysisAudioCompany/ProductAnalysisSoundProject.pdf) 
-    – Contains conclusions and examples of the dashboard
 
 
 ---
@@ -55,6 +49,8 @@ The dashboard includes the following sections as requested by management:
 * `README.md` – Project documentation (this file).
 * SQL_Queries - SQL scripts used for data preparation.
 * Original CSV files - 'product_sales.csv', 'discount_data.csv', 'Product_data.csv'
+* [**Detailed Report**](https://github.com/almog-miron/DataAnalysisProjects/blob/main/ProductAnalysisAudioCompany/ProductAnalysisSoundProject.pdf) 
+    – Contains conclusions and examples of the dashboard
 
 ---
 
