@@ -14,11 +14,11 @@ Deliverables: SQL queries, HotelRevenueProject.pbix, and a brief report.
 --Employee Absenteeism Analysis (SQL + PowerBI): Focus on Patterns in employee absenteeism, healthy employee identification, bonus distribution strategy. 
 Deliverables: SQL queries, Power BI dashboard 
 
---Bike Share Analysis (In progress, Python): Focus on Patterns in Bije rentals, revenue, seasons demographics.
-Deliverables: Python Script using pandas and Jupyter Notebook 
+--Bike Share Analysis (Python): Focus on Patterns in Bike rentals, revenue, seasons demographics.
+Deliverables: Python Script using pandas, numpy, matplotlib and Jupyter Notebook 
 **********************************************************************************************************************
 Key Skills Demonstrated:
 
 Writing efficient SQL queries for data cleaning, joining, and analysis. 
-Building interactive dashboards in Power BI. 
+Building interactive dashboards in Power BI. Using Python for data analysis.
 Translating data into business insights and recommendations.
